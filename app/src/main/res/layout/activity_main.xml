@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="124dp">
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="196dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="185dp"
+            android:layout_marginBottom="64dp"
+            android:text="DSATM"
+            android:textAlignment="center"
+            android:textColor="#2D95C5"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="92dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="4dp"
+            app:srcCompat="@drawable/dsatm" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Abhishek Anand"
+        android:textAlignment="center"
+        android:textColor="#CA3227"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:text="Student at Dayanand Sagar Institution"
+        android:textAlignment="center"
+        android:textColor="#912424"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:text="Mob :- +91 9334280408"
+        android:textAlignment="center"
+        android:textColor="#881F1F"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text="Address:- Udaypura,Banglore"
+        android:textAlignment="center"
+        android:textColor="#B53030"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="22rajputAbhishek@gmail.com"
+        android:textAlignment="center"
+        android:textColor="#BC1D1D"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+</LinearLayout>
